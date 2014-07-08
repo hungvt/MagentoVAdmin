@@ -1,4 +1,4 @@
-Magento VAdmin Theme By wWw.VnEcoms.com
+Magento VAdmin Theme
 =============
 <p>
 Replace the default theme of your admin cpanel by using V-Admin theme. <br />
