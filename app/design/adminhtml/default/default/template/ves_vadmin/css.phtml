@@ -1,0 +1,34 @@
+/*Header*/
+.vnecoms-cp .header-top{background-color: #<?php echo $this->getcolor('vadmin/header/header_color');?>;<?php if($headerBgImage = $this->getcolor('vadmin/header/bg_image')):?>background-image: url(<?php echo Mage::getBaseUrl('media').'ves_vadmin/'.$headerBgImage;?>);<?php endif;?>}
+.vnecoms-cp .header-top .header-right{color: #<?php echo $this->getcolor('vadmin/header/header_text_color');?>}
+.vnecoms-cp .header-top a{color: #<?php echo $this->getcolor('vadmin/header/header_link_color');?>}
+.vnecoms-cp .header-top a:hover{color: #<?php echo $this->getcolor('vadmin/header/header_link_color_hover');?>}
+
+/*Menu*/
+.vnecoms-cp .nav-bar{<?php if($navBgImage = $this->getcolor('vadmin/menu/bg_img')):?>background-image: url(<?php echo Mage::getBaseUrl('media').'ves_vadmin/'.$navBgImage;?>);<?php endif;?>}
+.vnecoms-cp #nav a{color: #<?php echo $this->getcolor('vadmin/menu/item_text_color');?>;}
+.vnecoms-cp #nav > li.active,.vnecoms-cp #nav > li:hover{background-color: #<?php echo $this->getcolor('vadmin/menu/item_level_0_hover_bg');?>;}
+.vnecoms-cp #nav ul{background-color: #<?php echo $this->getcolor('vadmin/menu/submenu_bg');?>;}
+.vnecoms-cp #nav ul li a:hover{background-color: #<?php echo $this->getcolor('vadmin/menu/submenu_item_hover_bg');?>;}
+
+/*Buttons*/
+.vnecoms-cp button, .vnecoms-cp .form-button{background-color:#<?php echo $this->getcolor('vadmin/buttons/general_button_bg_color');?>;}
+.vnecoms-cp button:hover, .vnecoms-cp .form-button:hover{background-color:#<?php echo $this->getcolor('vadmin/buttons/general_button_bg_color_hover');?>;}
+
+.vnecoms-cp button.save{background-color:#<?php echo $this->getcolor('vadmin/buttons/save_button_bg_color');?>;}
+.vnecoms-cp button.save:hover{background-color:#<?php echo $this->getcolor('vadmin/buttons/save_button_bg_color_hover');?>;}
+
+.vnecoms-cp button.add{background-color:#<?php echo $this->getcolor('vadmin/buttons/add_button_bg_color');?>;}
+.vnecoms-cp button.add:hover{background-color:#<?php echo $this->getcolor('vadmin/buttons/add_button_bg_color_hover');?>;}
+
+.vnecoms-cp button.cancel, .vnecoms-cp button.delete{background-color:#<?php echo $this->getcolor('vadmin/buttons/del_button_bg_color');?>;}
+.vnecoms-cp button.cancel:hover, .vnecoms-cp button.delete:hover{background-color:#<?php echo $this->getcolor('vadmin/buttons/del_button_bg_color_hover');?>;}
+
+.vnecoms-cp button.back{background-color:#<?php echo $this->getcolor('vadmin/buttons/back_button_bg_color');?>;}
+.vnecoms-cp button.back:hover{background-color:#<?php echo $this->getcolor('vadmin/buttons/back_button_bg_color_hover');?>;}
+
+
+/*Footer*/
+.vnecoms-cp .footer{background-color: #<?php echo $this->getcolor('vadmin/footer/footer_bg_color');?>;<?php if($footerBgImage = $this->getcolor('vadmin/footer/bg_image')):?>background-image: url(<?php echo Mage::getBaseUrl('media').'ves_vadmin/'.$footerBgImage;?>);<?php endif;?>color: #<?php echo $this->getcolor('vadmin/footer/footer_text_color');?>;}
+.vnecoms-cp .footer a{color: #<?php echo $this->getcolor('vadmin/footer/footer_link_color');?>;}
+.vnecoms-cp .footer a:hover{color: #<?php echo $this->getcolor('vadmin/footer/footer_link_color_hover');?>;}

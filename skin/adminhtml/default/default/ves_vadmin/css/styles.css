@@ -1,0 +1,141 @@
+.vnecoms-cp .middle{background: #FFF;padding-bottom: 30px;}
+.vnecoms-cp .header{background: none;}
+.vnecoms-cp .header-top{/*border-top: 3px solid #F77825;*/background: #2B2927;border-bottom: 1px solid #555555;}
+.vnecoms-cp .header-right{margin: 0; padding:10px 20px 0 0;}
+.vnecoms-cp .header-right .super{margin-top: 4px;}
+
+.vnecoms-cp .columns{background-image: none;}
+.vnecoms-cp .notification-global a{color: #EB5E00;}
+/*nav*/
+.vnecoms-cp .nav-bar{background: url(../images/bg.jpg);border: none;}
+.vnecoms-cp #nav li{padding: 8px 0;border-right: 1px dotted #6B6B6B;background: none;}
+.vnecoms-cp #nav li.active,.vnecoms-cp #nav li:hover {background: #2B2B2B;margin-left: 0;}
+.vnecoms-cp #nav ul li.last{background: none;}
+.vnecoms-cp #nav ul{top: 42px;background: #2B2B2B; border-top: 0;}
+.vnecoms-cp #nav ul li{padding: 0; border-bottom: 1px dotted #6B6B6B;}
+.vnecoms-cp #nav ul li.last{border-bottom: 0 none;}
+.vnecoms-cp #nav ul li a{background: none; color: #FFF;}
+.vnecoms-cp #nav ul li a:hover{background-color: #606060;}
+.vnecoms-cp #nav ul li a span{color: #FFF;background: none;}
+.vnecoms-cp #nav li.over ul li.over ul{left: 150px; top: 5px;}
+.vnecoms-cp #page-help-link{line-height: 40px;}
+/*footer*/
+.vnecoms-cp .footer{padding: 10px 20px; background: #2B2927;color: #e3e3e3;font-size: 13px;}
+.vnecoms-cp .footer select{padding: 0;}
+.vnecoms-cp .footer .bug-report{margin: 25px 0;}
+/*general*/
+.vnecoms-cp a{color: #666666; text-decoration: none;}
+.vnecoms-cp a:HOVER{color: #F77825;}
+
+.vnecoms-cp input.input-text, .vnecoms-cp textarea, .vnecoms-cp select{color: #555555;font-size: 14px;line-height: 20px;padding: 4px 6px;border: 1px solid #CCCCCC;background-color: #FFFFFF;}
+.vnecoms-cp .filter input.input-text{padding: 2px;}
+.vnecoms-cp .select{height: 30px;}
+.vnecoms-cp .multiselect{height: 150px;}
+
+/*button*/
+.vnecoms-cp button, .vnecoms-cp .form-button {background-color: #ffaa33;background-image: none;border: medium none;color: #FFFFFF;cursor: pointer;display: inline-block;font-size: 14px;line-height: 20px;margin-bottom: 3px;padding: 6px 12px;text-align: center;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);vertical-align: middle;}
+.vnecoms-cp button:hover, .vnecoms-cp .form-button:hover{background-color: #f69101;color: #FFFFFF;text-decoration: none; background-image: none;}
+
+
+.vnecoms-cp button.reset{background-color: #ffaa33;color: #FFFFFF;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);}
+.vnecoms-cp button.reset:hover{background-color: #f69101;color: #FFFFFF;}
+.vnecoms-cp button.reset span{padding-left: 20px; background-image: url(../images/reset.png);}
+
+.vnecoms-cp button.save{background-color: #59b759;color: #FFFFFF;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);}
+.vnecoms-cp button.save span{background-image: url(../images/save.png);}
+.vnecoms-cp button.save:hover {background-color: #4fa24f;color: #FFFFFF;}
+
+.vnecoms-cp button.add{background-color: #49AFCD;color: #FFFFFF;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);}
+.vnecoms-cp button.add:hover{background-color: #2F96B4;color: #FFFFFF;}
+.vnecoms-cp button.add span{background-image: url(../images/add.png);}
+
+.vnecoms-cp button.save-and-continue{background-color: #006DDD;color: #FFFFFF;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25)}
+.vnecoms-cp button.save-and-continue:hover{background-color: #0044BB;color: #FFFFFF;}
+.vnecoms-cp button.save-and-continue span{background-image: url(../images/save.png);padding-left: 20px;}
+
+.vnecoms-cp button.back {background-color: #363636;color: #FFFFFF;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);}
+.vnecoms-cp button.back:hover{background-color: #222222;color: #FFFFFF;}
+.vnecoms-cp button.back span{background-image: url(../images/back.png);}
+
+.vnecoms-cp button.cancel,.vnecoms-cp button.delete{background-color: #DA4F49;color: #FFFFFF;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);}
+.vnecoms-cp button.cancel span, .vnecoms-cp button.delete span{background-image: url('../images/delete.png');}
+.vnecoms-cp button.cancel:hover, .vnecoms-cp button.delete:hover{background-color: #BD362F;color: #FFFFFF; background-image: none;}
+/*Form*/
+.vnecoms-cp dl.accordion dt, .vnecoms-cp .entry-edit .entry-edit-head{background-color: #EFEFEF;border: 1px solid #CDCDCD;height: 36px;padding: 0;}
+.vnecoms-cp .entry-edit fieldset, .vnecoms-cp .entry-edit .fieldset{border-top: 0 none;}
+.vnecoms-cp .entry-edit .entry-edit-head h4{color: #666666;font-size: 12px;font-weight: bold;line-height: 12px;margin: 0;padding: 12px;text-shadow: 0 1px 0 #FFFFFF;}
+.vnecoms-cp .form-list td.value select{width: 288px;}
+.vnecoms-cp ul.tabs, .vnecoms-cp ul.tabs a{background: #FFF;border-bottom: 0 none;}
+.vnecoms-cp ul.tabs a:hover,.vnecoms-cp ul.tabs a.active span,.vnecoms-cp ul.tabs a.active:hover span{color: #F77825;}
+.vnecoms-cp ul.tabs span{background: none; border-bottom: 1px dotted #6B6B6B;}
+.vnecoms-cp ul.tabs a.error span.error{border: 0 none;}
+.vnecoms-cp .entry-edit .entry-edit-head strong,.vnecoms-cp .entry-edit .entry-edit-head a{color: #666666; line-height: 36px;padding-left: 10px;margin-right: 10px;}
+.vnecoms-cp dl.accordion dt a, div.collapseable a{background-image: url(../images/down_arrow.png);}
+.vnecoms-cp dl.accordion dt.open a, div.collapseable a.open{background-image: url(../images/up_arrow.png);}
+
+/*Config Tabs*/
+.vnecoms-cp ul.config-tabs dl,.vnecoms-cp ul.tabs{border: 1px solid #CDCDCD;}
+.vnecoms-cp ul.config-tabs{border: 0 none;}
+.vnecoms-cp ul.config-tabs dt{border-top: 0 none;background-color: #EFEFEF;border-bottom: 1px solid #CDCDCD;color: #666666;line-height: 36px;padding:  0 0 0 30px;background-image: url(../images/config_tab_dt_bg.png);background-repeat: no-repeat;background-position: 10px 13px;}
+.vnecoms-cp ul.tabs dd:last-child span,.vnecoms-cp ul.tabs li:last-child span{border: 0 none;}
+
+
+/*Login Form*/
+#page-login.vnecoms-cp{background: #31302B;}
+.vnecoms-cp .login-container{padding: 0;background: none;width: auto;margin: 150px auto;}
+.vnecoms-cp .login-box {padding: 8px;background: #464541;border-radius: 4px;width: 400px;margin: 0 auto;}
+.vnecoms-cp .login-form{margin: 0 auto;position:relative; background: #FFF; border: 1px solid #CDCDCD;padding:0 0 35px;border-radius: 3px;,-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+.vnecoms-cp .login-form .input-box input.input-text{width: 214px;}
+.vnecoms-cp .login-form .messages{margin: 0 57px;}
+.vnecoms-cp .login-form .input-box{position: relative;margin: 0 57px 15px;}
+.vnecoms-cp .login-form .input-box i {
+    background: none repeat scroll 0 0 #676056;
+    color: #F7F3EB;
+    font-size: 14px;
+    height: 44px;
+    left: 0;
+    line-height: 44px;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: all 0.3s ease-out 0s;
+    width: 44px;
+}
+
+.vnecoms-cp .login-form input[type="text"], .vnecoms-cp .login-form input[type="password"] {
+    background: none repeat scroll 0 0 #F7F3EB;
+    border: medium none;
+    color: #777777;
+    font-family: 'Open Sans',Calibri,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    height: 24px;
+    padding: 10px 15px 10px 55px;
+    position: relative;
+    transition: color 0.3s ease-out 0s;
+    width: 200px;
+}
+
+
+.vnecoms-cp .login-form input[type=text]:hover ~ i,
+.vnecoms-cp .login-form input[type=password]:hover ~ i {
+    color: #ded9cf;
+}
+
+.vnecoms-cp .login-form input[type=text]:focus ~ i,
+.vnecoms-cp .login-form input[type=password]:focus ~ i {
+    color: #f2672e;
+}
+
+.vnecoms-cp .login-form input[type=text]:focus,
+.vnecoms-cp .login-form input[type=password]:focus,
+.vnecoms-cp .login-form button[type=submit]:focus {
+    outline: none;
+}
+
+.vnecoms-cp .footer .legality{min-height: 60px;}
+.vnecoms-cp .login-form h2 {margin-bottom: 25px;background: none repeat scroll 0 0 #F2672E;color: #FFFFFF;font-size: 15px;font-weight: bold;line-height: 55px;text-align: center;text-transform: uppercase;}
+.vnecoms-cp .login-form .form-buttons{padding: 0 57px;}
+.vnecoms-cp .login-form .form-button,.vnecoms-cp .login-form .form-buttons .forgot-password{text-transform: uppercase;width: 100%;background: #F2672E;padding: 12px 12px;}
+.vnecoms-cp .login-form .form-button:hover,.vnecoms-cp .login-form .form-buttons .forgot-password:hover{background: #CC560F;}

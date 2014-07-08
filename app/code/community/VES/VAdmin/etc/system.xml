@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+		<ves translate="label">
+			<label>VnEcoms</label>
+			<sort_order>400</sort_order>
+		</ves>
+	</tabs>
+
+	<sections>
+		<vadmin translate="label" module="vadmin">
+			<label>V-Admin Theme</label>
+			<tab>ves</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>1</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<config>
+					<label>General</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>10</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>						
+						<enabled>
+							<label>Enable V-Admin Theme</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</enabled>
+					</fields>
+				</config>
+				<head>
+					<label>HTML Head</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>13</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<favicon>
+                            <label>Favicon Icon</label>
+                            <comment>Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!</comment>
+                            <frontend_type>image</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_image_favicon</backend_model>
+                            <base_url type="media" scope_info="1">favicon</base_url>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </favicon>
+                        <default_title>
+							<label>Default Title</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</default_title>
+                	</fields>
+				</head>
+				<login>
+					<label>Login Box</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>15</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<body_color>
+							<label>Body Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+							<comment>Click textbox to choose color</comment>						
+						</body_color>
+						<body_image>
+							<label>Body Background Image</label>
+							<frontend_type>image</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_image</backend_model>
+                            <upload_dir config="system/filesystem/media" scope_info="1">ves_vadmin</upload_dir>
+                            <base_url type="media" scope_info="1">ves_vadmin</base_url>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>					
+						</body_image>
+						<title_bg_color>
+							<label>Title Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>30</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+							<comment>Click textbox to choose color</comment>						
+						</title_bg_color>
+						<button_color>
+							<label>Button Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>40</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+							<comment>Click textbox to choose color</comment>						
+						</button_color>
+						<button_color_hover>
+							<label>Button Background Color Hover</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>50</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+							<comment>Click textbox to choose color</comment>						
+						</button_color_hover>
+                	</fields>
+				</login>
+				<header>
+					<label>Header</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>20</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<logo>
+                            <label>Logo</label>
+                            <frontend_type>image</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_image</backend_model>
+                            <upload_dir config="system/filesystem/media" scope_info="1">ves_vadmin</upload_dir>
+                            <base_url type="media" scope_info="1">ves_vadmin</base_url>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </logo>
+						<header_color>
+							<label>Header Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+							<comment>Click textbox to choose color</comment>						
+						</header_color>
+						<bg_image>
+                            <label>Background Image</label>
+                            <frontend_type>image</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_image</backend_model>
+                            <upload_dir config="system/filesystem/media" scope_info="1">ves_vadmin</upload_dir>
+                            <base_url type="media" scope_info="1">ves_vadmin</base_url>
+                            <sort_order>25</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </bg_image>
+						<header_text_color>
+							<label>Header Text Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>30</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</header_text_color>
+						<header_link_color>
+							<label>Header Link Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>40</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</header_link_color>
+						<header_link_color_hover>
+							<label>Header Link Color Hover</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>50</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</header_link_color_hover>
+						<show_notifications>
+							<label>Show Notification Messages</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>60</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<comment>The notification messages under the menu and the notification window when you login to your admin panel.</comment>
+						</show_notifications>
+					</fields>
+				</header>
+				<menu>
+					<label>Menu</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>30</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<bg_img>
+                            <label>Background Image</label>
+                            <frontend_type>image</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_image</backend_model>
+                            <upload_dir config="system/filesystem/media" scope_info="1">ves_vadmin</upload_dir>
+                            <base_url type="media" scope_info="1">ves_vadmin</base_url>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </bg_img>
+
+                        <item_text_color>
+							<label>Item Text Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>15</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</item_text_color>
+						<item_level_0_hover_bg>
+							<label>Item Level 0 Hover Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</item_level_0_hover_bg>
+						<submenu_bg>
+							<label>Submenu Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>30</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</submenu_bg>
+						<submenu_item_hover_bg>
+							<label>Submenu Item Hover Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>40</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</submenu_item_hover_bg>
+						<show_help_link>
+							<label>Show Help Link</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>50</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</show_help_link>
+					</fields>
+				</menu>
+				<buttons>
+					<label>Buttons</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>40</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<general_button_bg_color>
+							<label>General Button Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</general_button_bg_color>
+						<general_button_bg_color_hover>
+							<label>General Button Background Color Hover</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</general_button_bg_color_hover>
+						<save_button_bg_color>
+							<label>Save Button Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>30</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</save_button_bg_color>
+						<save_button_bg_color_hover>
+							<label>Save Button Background Color Hover</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>40</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</save_button_bg_color_hover>
+						<add_button_bg_color>
+							<label>Add Button Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>50</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</add_button_bg_color>
+						<add_button_bg_color_hover>
+							<label>Add Button Background Color Hover</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>60</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</add_button_bg_color_hover>
+						<del_button_bg_color>
+							<label>Delete Button Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>70</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</del_button_bg_color>
+						<del_button_bg_color_hover>
+							<label>Delete Button Background Color Hover</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>80</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</del_button_bg_color_hover>
+						<back_button_bg_color>
+							<label>Back Button Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>90</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</back_button_bg_color>
+						<back_button_bg_color_hover>
+							<label>Back Button Background Color Hover</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>100</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</back_button_bg_color_hover>
+					</fields>
+				</buttons>
+				<footer>
+					<label>Footer</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>110</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<footer_bg_color>
+							<label>Footer Background Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+							<comment>Click textbox to choose color</comment>						
+						</footer_bg_color>
+						<bg_image>
+                            <label>Background Image</label>
+                            <frontend_type>image</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_image</backend_model>
+                            <upload_dir config="system/filesystem/media" scope_info="1">ves_vadmin</upload_dir>
+                            <base_url type="media" scope_info="1">ves_vadmin</base_url>
+                            <sort_order>15</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </bg_image>
+						<show_magento_ver>
+							<label>Show Magento Version Text</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</show_magento_ver>
+						<footer_text>
+							<label>Footer Text</label>
+							<frontend_type>textarea</frontend_type>
+							<sort_order>25</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</footer_text>
+						<footer_right_text>
+							<label>Footer Right Text</label>
+							<frontend_type>textarea</frontend_type>
+							<sort_order>30</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</footer_right_text>
+						<footer_text_color>
+							<label>Footer Text Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>35</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</footer_text_color>
+						<footer_link_color>
+							<label>Footer Link Color</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>40</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</footer_link_color>
+						<footer_link_color_hover>
+							<label>Header Link Color Hover</label>
+							<frontend_type>text</frontend_type>
+							<validate>color</validate>
+							<sort_order>50</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<frontend_class>required-entry</frontend_class>
+						</footer_link_color_hover>
+					</fields>
+				</footer>
+				<author>
+					<label>Author</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>10000</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<expanded>1</expanded>
+					<comment><![CDATA[
+                    The V-Admin Theme is developed and supported by <a href="http://www.vnecoms.com/" target="_blank">www.VnEcoms.com</a>.<br />
+					If you need any support or have any question please contact us at <a href="mailto:support@vnecoms.com">support@vnecoms.com</a> or submit a ticket at <a href="http://www.vnecoms.com/contacts/" target="_blank">http://www.vnecoms.com/contacts/</a><br /><br />
+					Best Regards,<br />
+					<strong>VnEcoms Team</strong>
+					]]></comment>
+				</author>
+
+			</groups>
+		</vadmin>
+	</sections>
+</config>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+		<update handle="vnecoms_cp" />
+		<reference name="head">
+			<block type="vadmin/head" name="vadmin.head" />
+		</reference>
+	</default>
+	<vnecoms_cp>
+		<reference name="root">
+    		<action method="addBodyClass" ifconfig="vadmin/config/enabled"><className>vnecoms-cp</className></action>
+    	</reference>
+    	<reference name="head">
+    		<action method="setTemplate"><template>ves_vadmin/page/head.phtml</template></action>
+    		<action method="addCss" ifconfig="vadmin/config/enabled"><stylesheet>ves_vadmin/css/styles.css</stylesheet></action>
+    	</reference>
+    	<reference name="footer">
+    		<action method="setTemplate" ifconfig="vadmin/config/enabled"><template>ves_vadmin/page/footer.phtml</template></action>
+    	</reference>
+	</vnecoms_cp>
+	
+	<adminhtml_index_login>
+		<reference name="content">
+			<action method="setTemplate" ifconfig="vadmin/config/enabled"><template>ves_vadmin/login.phtml</template></action>
+		</reference>
+	</adminhtml_index_login>
+	
+	<adminhtml_index_forgotpassword>
+		<reference name="content">
+			<action method="setTemplate" ifconfig="vadmin/config/enabled"><template>ves_vadmin/forgotpassword.phtml</template></action>
+		</reference>
+	</adminhtml_index_forgotpassword>
+	
+	<adminhtml_system_config_edit>
+		<reference name="head">
+        	<action method="addJs"><script>jscolor/jscolor.js</script></action>
+    	</reference>
+	</adminhtml_system_config_edit>
+	
+	<adminhtml_vadmin_css_index>
+	 	 <block type="vadmin/color" name="root" output="toHtml" template="ves_vadmin/css.phtml" />  
+	</adminhtml_vadmin_css_index>
+</layout>
