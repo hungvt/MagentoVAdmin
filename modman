@@ -1,0 +1,4 @@
+app/etc/modules/*.xml																app/etc/modules/
+app/code/community/Ves/*														app/code/community/Ves/
+app/design/adminhtml/default/default/layout/*				app/design/adminhtml/default/default/layout/
+app/design/adminhtml/default/default/template/*			app/design/adminhtml/default/default/template/
