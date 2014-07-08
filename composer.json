@@ -3,8 +3,8 @@
     "description":"Magento Extension to customize admin interface",
     "keywords":[ "ves", "vadmin", "magento"],
     "minimum-stability":"dev",
-    "type":"composer-plugin",
-    "license":"YOUR_LICENSE",
+    "type":"magento-module",
+    "license":"OSL-3.0",
     "homepage":"https://github.com/hungvt/MagentoVAdmin",
     "repositories": [
         {
@@ -13,9 +13,5 @@
         }
     ],
     "authors":[
-        {
-            "name":"YOUR_NAME",
-            "email":"YOUR_EMAIL"
-        },
     ],
 }
