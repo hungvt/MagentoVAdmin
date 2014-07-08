@@ -3,6 +3,8 @@ Magento VAdmin Theme
 <p>
 Replace the default theme of your admin cpanel by using V-Admin theme. <br />
 With black base color and great button set your website will look better.
+</p>
+<p>
 <img src="http://vnecoms.com/media/wysiwyg/vadmin/vadmin_configuration.jpg">
 </p>
 
