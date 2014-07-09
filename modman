@@ -1,4 +1,4 @@
-app/etc/modules/*.xml																app/etc/modules/
-app/code/community/Ves/*														app/code/community/Ves/
-app/design/adminhtml/default/default/layout/vnecoms				app/design/adminhtml/default/default/layout/vnecoms
-app/design/adminhtml/default/default/template/vnecoms			app/design/adminhtml/default/default/template/vnecoms
+app/etc/modules/*.xml																					app/etc/modules/
+app/code/community/Ves/*																			app/code/community/Ves/
+app/design/adminhtml/default/default/layout/vnecoms						app/design/adminhtml/default/default/layout/vnecoms
+app/design/adminhtml/default/default/template/ves_vadmin			app/design/adminhtml/default/default/template/ves_vadmin
