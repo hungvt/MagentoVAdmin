@@ -22,8 +22,9 @@ class VES_VAdmin_Block_Head extends Mage_Core_Block_Template
 			$this->getLayout()->getBlock('root')->unsetChild('notifications');
 		}
 		
-		if(!Mage::getStoreConfig('vadmin/menu/show_help_link')){
-			$this->getLayout()->getBlock('menu')->setTemplate('ves_vadmin/page/menu.phtml');
+		$menuBlock = $this->getLayout()->getBlock('menu');
+		if(!Mage::getStoreConfig('vadmin/menu/show_help_link') && $menuBlock){
+			$menuBlock->setTemplate('ves_vadmin/page/menu.phtml');
 		}
 	}
 
