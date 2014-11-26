@@ -1,0 +1,17 @@
+{
+    "name":"hungvt/MagentoVAdmin",
+    "description":"Magento Extension to customize admin interface",
+    "keywords":[ "ves", "vadmin", "magento"],
+    "minimum-stability":"dev",
+    "type":"magento-module",
+    "license":"OSL-3.0",
+    "homepage":"https://github.com/hungvt/MagentoVAdmin",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hungvt/MagentoVAdmin.git"
+        }
+    ],
+    "authors":[
+    ],
+}
