@@ -1,0 +1,8 @@
+app/code/community/VES/VAdmin                                           app/code/community/VES/VAdmin
+
+app/etc/modules/VES_VAdmin.xml                                          app/etc/modules/VES_VAdmin.xml
+
+app/design/adminhtml/default/default/layout/vnecoms                     app/design/adminhtml/default/default/layout/vnecoms
+app/design/adminhtml/default/default/template/ves_vadmin                app/design/adminhtml/default/default/template/ves_vadmin
+
+skin/adminhtml/default/default/ves_vadmin                               skin/adminhtml/default/default/ves_vadmin
