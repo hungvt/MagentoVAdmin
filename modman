@@ -1,4 +1,4 @@
-app/code/community/Ves/VAdmin                                           app/code/community/Ves/VAdmin
+app/code/community/VES/VAdmin                                           app/code/community/VES/VAdmin
 
 app/etc/modules/VES_VAdmin.xml                                          app/etc/modules/VES_VAdmin.xml
 
