@@ -32,6 +32,8 @@
 .vnecoms-cp .select{height: 30px;}
 .vnecoms-cp .multiselect{height: 150px;}
 
+:disabled, .disabled { color:#999999 !important; background-color: #DDDDDD !important;}
+
 /*button*/
 .vnecoms-cp button, .vnecoms-cp .form-button {background-color: #ffaa33;background-image: none;border: medium none;color: #FFFFFF;cursor: pointer;display: inline-block;font-size: 14px;line-height: 20px;margin-bottom: 3px;padding: 6px 12px;text-align: center;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);vertical-align: middle;}
 .vnecoms-cp button:hover, .vnecoms-cp .form-button:hover{background-color: #f69101;color: #FFFFFF;text-decoration: none; background-image: none;}
